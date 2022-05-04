@@ -30,3 +30,9 @@ Providing context using @Component.Factory
 
 ## _10_viewmodel_factory
 Providing ViewModel using ViewModelProvider.Factory
+
+## _11_activity_injection
+Activity member injection
+
+## _12_activity_injection_new
+Activity constructor injection (api 28+)
