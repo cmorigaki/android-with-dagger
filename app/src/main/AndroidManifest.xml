@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="br.com.experiment.daggerforandroid">
 
     <application
-        android:name="._9_provide_context.MainApplication"
+        android:name="._12_activity_injection_new.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DaggerForAndroid">
+        android:theme="@style/Theme.DaggerForAndroid"
+
+        android:appComponentFactory="br.com.experiment.daggerforandroid._12_activity_injection_new.InjectorComponentFactory"
+        tools:replace="android:appComponentFactory">
         <activity
-            android:name="._9_provide_context.MainActivity"
-            android:exported="true">
+            android:name="._12_activity_injection_new.MainActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package br.com.experiment.daggerforandroid._10_viewmodel_factory
+package br.com.experiment.daggerforandroid._11_activity_injection
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
